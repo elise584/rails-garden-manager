@@ -1,4 +1,8 @@
+puts "Destroying gardens..."
+
 Garden.destroy_all
+
+puts "Creating 6 gardens..."
 
 garden_names = [
   "French garden",
@@ -27,3 +31,5 @@ garden_names.each do |garden_name|
     sleep(2)
   end
 end
+
+puts "Done!"
